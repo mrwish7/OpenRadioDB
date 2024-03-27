@@ -1,0 +1,15 @@
+{
+  "name": "ordb-rest",
+  "version": "1.0.0",
+  "description": "OpenRadioDB REST service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mrwish7",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1"
+  }
+}

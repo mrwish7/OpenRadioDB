@@ -13,7 +13,7 @@ services:
       - mysql-phpmyadmin
 
   database:
-    image: mysql:latest
+    image: mariadb:latest
     ports:
       - 3306:3306
     environment:

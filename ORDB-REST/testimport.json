@@ -1,0 +1,39 @@
+{
+    "entries": [
+        {
+            "itu": "G",
+            "region": "GLO",
+            "city": "Gloucester",
+            "detailed_name": "Churchdown Hill",
+            "lat": 51.8683,
+            "lon": -2.1754,
+            "freq": 89,
+            "ant_height": 17,
+            "ant_pol": "m",
+            "erp": 0.072,
+            "station": "BBC Radio 2",
+            "pi": "C202",
+            "ps": [
+                "BBC_R2__"
+            ]
+        },
+        {
+            "itu": "G",
+            "region": "GLO",
+            "city": "Gloucester",
+            "detailed_name": "Churchdown Hill",
+            "lat": 51.8683,
+            "lon": -2.1754,
+            "freq": 91.2,
+            "ant_height": 17,
+            "ant_pol": "m",
+            "erp": 0.072,
+            "station": "BBC Radio 3",
+            "pi": "C203",
+            "ps": [
+                "BBC_R3__",
+                "Test_Dyn"
+            ]
+        }
+    ]
+}
