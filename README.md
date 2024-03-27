@@ -31,11 +31,10 @@ Docker (if you want to run the database via a containerised MariaDB setup)
 - A `POST` request can be used to push records into the database. The records need to be JSON encoded in the body of the request. A formatting example can be found in the `testimport.json` file.
 
 ## To-do
-This is only a very basic initial version of this system to show how a database for the project might be structured. For the moment it only contains transmitter data for FM transmissions in the UK and Gibraltar, sourced from the data provided by Ofcom (the UK's media regulator). There are lots of things to add to make it fully functional, including -
+This is only a very basic initial version of this system to show how a database for the project might be structured, and how data might be imported. Some future improvements include -
 
-- Split out tables further, to have RDS data and program info in separate tables.
-- Add some kind of user data and authentication for updates.
-- Add 'staging' tables where updates can be stored before being approved.
-- Create interface code for database operations, this could be a REST API using node.js.
+- Enable direct CSV file import.
+- Allow filtering when getting records.
+- Update existing records where a duplicate is found.
 
  
