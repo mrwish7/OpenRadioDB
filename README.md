@@ -9,11 +9,15 @@ Node.js
 Docker (if you want to run the database via a containerised MariaDB setup)
 
 ## Instructions
+
 **Docker:**
+
 - Build and start the containers by running `docker-compose up -d` from the root directory of the project
 - In browser, navigate to http://localhost:8080 to load the PHPMyAdmin interface
 - Log-in using `root` user with the `MYSQL_ROOT_PASSWORD` password value as set in the .env file.
+  
 **Without Docker:**
+  
 - Install and setup MariaDB
 - Create a database called `ordb`
 - Import the included `ordb.sql` file to create the correct tables.
